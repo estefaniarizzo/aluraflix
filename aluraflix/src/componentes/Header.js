@@ -1,7 +1,8 @@
 import React from 'react';
-import styled , {css} from "styled-components"
+import styled, { css } from "styled-components"
 import logo from '../assets/LogoMain.png'
 import Button from '../componentes/Button'
+
 
 
 const HeaderContainer = styled.div`
@@ -12,6 +13,7 @@ const HeaderContainer = styled.div`
     display:flex;
     align-items: center;
     justify-content:space-between;
+    min-width:320px;
     
 `
 const Logo = styled.img`
@@ -19,7 +21,7 @@ const Logo = styled.img`
     margin-left:2%;
 
     ${props => css`
-    @media (max-width: ${props.theme.breakpoints.tablet}) {
+    @media (max-width: ${props.theme.breakpoints.laptop}) {
       margin: 0 auto;
       
    ` }
@@ -27,13 +29,13 @@ const Logo = styled.img`
    
 `
 
- const Header = () => {
+const Header = () => {
   return (
     <HeaderContainer>
-        <Logo src={logo} alt="Aluraflix Logo"/>
-        <Button  inputColor="white" bordercolor='white'  marginR="2%" >
-          Nuevo Video
-        </Button>
+      <Logo src={logo} alt="Aluraflix Logo" />
+      <Button inputColor="white" bordercolor='white' marginR="2%" display='none' fontSize="1rem" btnwidth="8rem" height="3rem"  >
+        Nuevo Video
+      </Button>
     </HeaderContainer>
   )
 }

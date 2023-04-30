@@ -3,6 +3,7 @@ import Header from './componentes/Header'
 import theme  from './styles/theme'
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Banner from '../src/componentes/Banner';
+import Slider from './componentes/Carousel/Slider/Slider'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <div >
       <Header/>
       <Banner/>
+      <Slider/>
   
 
     

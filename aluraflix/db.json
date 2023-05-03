@@ -1,0 +1,16 @@
+{
+  "videos": [
+    { "id": 1, "titulo": "cuando usar let,var y const", "linkVideo": "john.doe@example.com","linkImagenVideo":"","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
+    { "id": 2, "titulo": "que es javascript", "linkVideo": "john.doe@example.com","linkImagenVideo":"","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
+    { "id": 1, "titulo": "Spring Framework", "linkVideo": "john.doe@example.com","linkImagenVideo":"","Categoria":"Front End","decripcion":"","codigoSeguridad":"" }
+
+  ],
+  "categorias": [
+    { "id": 1, "categoriaNombre": "Front End", "categoriaTexto": "Formacion FrontEnd Alura Latam" , "categoriaColor":"#6BD1FF"},
+    { "id": 2, "categoriaNombre": "BackEnd", "categoriaTexto": "Formacion Backend Alura Latam", "categoriaColor":"#00C86F" },
+    { "id": 3, "categoriaNombre": "Innovacion y Gestion", "categoriaTexto": "Formacion Innovacion y Gestion Alura Latam", "categoriaColor":"#FE8C2A" }
+    
+
+  ]
+ 
+}

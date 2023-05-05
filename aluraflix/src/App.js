@@ -4,6 +4,7 @@ import theme  from './styles/theme'
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Banner from '../src/componentes/Banner';
 import Slider from './componentes/Carousel/Slider/Slider';
+import Footer from './componentes/Footer'
 import MainSection from './componentes/MainSection';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -32,7 +33,7 @@ function App() {
       <Header/>
       <Banner/>
       <MainSection categorias = {categorias}  videos = {videos}/>
-  
+      <Footer/>
 
     
     </div>

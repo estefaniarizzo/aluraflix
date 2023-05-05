@@ -11,6 +11,8 @@ import styled , {css} from "styled-components"
 
 const MainSectionContainer = styled.div`
     background-color: #191919;
+    padding-top:3rem;
+    padding-bottom:3rem;
   
     
 `

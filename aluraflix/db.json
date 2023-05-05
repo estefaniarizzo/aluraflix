@@ -1,12 +1,17 @@
 {
   "videos": [
-    { "id": 1, "titulo": "cuando usar let,var y const", "linkVideo": "john.doe@example.com","linkImagenVideo":"","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
-    { "id": 2, "titulo": "que es javascript", "linkVideo": "john.doe@example.com","linkImagenVideo":"","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
-    { "id": 1, "titulo": "Spring Framework", "linkVideo": "john.doe@example.com","linkImagenVideo":"","Categoria":"Front End","decripcion":"","codigoSeguridad":"" }
+    { "id": 1, "titulo": "cuando usar let,var y const", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/front1.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
+    { "id": 2, "titulo": "que es javascript", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/front2.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
+    { "id": 4, "titulo": "Equipo front end​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/inGest2.jpg","Categoria":"Innovacion y Gestion","decripcion":"","codigoSeguridad":"" },
+    { "id": 5, "titulo": "Las 7 softskills más deseadas​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/inGest1.jpg","Categoria":"Innovacion y Gestion","decripcion":"","codigoSeguridad":"" },
+    { "id": 6, "titulo": "Las 7 softskills más deseadas​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/front3.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
+    { "id": 7, "titulo": "Las 7 softskills más deseadas​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/backend1.jpg","Categoria":"BackEnd","decripcion":"","codigoSeguridad":"" },
+    { "id": 8, "titulo": "Las 7 softskills más deseadas​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/front4.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
+    { "id": 9, "titulo": "Las 7 softskills más deseadas​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/front5.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" }
 
   ],
   "categorias": [
-    { "id": 1, "categoriaNombre": "Front End", "categoriaTexto": "Formacion FrontEnd Alura Latam" , "categoriaColor":"#6BD1FF"},
+    { "id": 1, "categoriaNombre": "Front End", "categoriaTexto": "Formacion Front End Alura Latam" , "categoriaColor":"#6BD1FF"},
     { "id": 2, "categoriaNombre": "BackEnd", "categoriaTexto": "Formacion Backend Alura Latam", "categoriaColor":"#00C86F" },
     { "id": 3, "categoriaNombre": "Innovacion y Gestion", "categoriaTexto": "Formacion Innovacion y Gestion Alura Latam", "categoriaColor":"#FE8C2A" }
     

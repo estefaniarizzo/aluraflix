@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from './Carousel/Slider/Slider'
-import fotos from '../mock'
+
 
 import styled , {css} from "styled-components"
 
@@ -21,11 +21,12 @@ const MainSectionContainer = styled.div`
 
 
 
-function MainSection() {
+function MainSection({categorias , videos}) {
+
   return (
 
     <MainSectionContainer>
-          <Slider slides={fotos}/>
+          <Slider categorias={categorias } videos={videos}/>
   
     </MainSectionContainer>
 

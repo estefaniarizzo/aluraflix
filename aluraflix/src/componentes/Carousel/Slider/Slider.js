@@ -1,11 +1,54 @@
 import React from 'react'
-import foto1 from '../../../assets/thumbnails/bannerCard1.jpg'
-import slides from '../../../mock'
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper";
 import 'swiper/swiper-bundle.css';
 import styled, { css } from "styled-components"
+
+const CategoryContainer = styled.div`
+  color:#ffff;
+  display:flex;
+
+  height:5rem;
+  margin-left:1%;
+  align-items: center;
+  & .textoCategoria {
+       margin-left:1rem;
+       color: #f5f5f5;
+       flex:wrap;
+
+    }
+/* 
+    
+    
+  ${props => props.isHidden && css`
+    display: none;
+  `} */
+
+  @media screen and (min-width: 992px) {
+    display: ${(props) =>
+      props.isHidden   && "none" };
+  }
+`;
+ 
+
+
+const CategoriaTitulo = styled.div`
+    display:flex;
+    background-color: ${(props) => props.categoriaColor};
+    width:auto;
+    padding:1rem;
+    height:60%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+  
+
+`
+
+
 
 
 
@@ -96,7 +139,10 @@ const StyledSwiperSlide = styled(SwiperSlide)`
 
   }
   
-
+& .videoImage {
+  border: 4px solid ${props => props.borderColor};
+}
+   
 
 
 
@@ -107,57 +153,106 @@ const StyledSwiperSlide = styled(SwiperSlide)`
 
 
 
+function Slider({ categorias , videos }) {
 
 
-function Slider({ slides }) {
+  const filteredCategories = categorias.filter(categoria => {
+    return videos.some(video => video.Categoria === categoria.categoriaNombre);
+  });
+  
+
+   
   return (
     <div>
+
+              
       <SwiperContainer>
-        <StyledSwiper
-          spaceBetween={10}
-          slidesPerView={4}
-          slidesPerGroup={2}
-          navigation={true} modules={[Navigation]}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
+     
 
-          breakpoints={{
-            320:{
-              slidesPerView: 1,
+        {
+            filteredCategories.map((categoria) => (
+              
+             
+             <div>
 
-            },
+              <CategoryContainer isHidden={categoria.categoriaNombre === "Front End"}>
+              <CategoriaTitulo  categoriaColor = {categoria.categoriaColor}>
+              {categoria.categoriaNombre}
+              
+              </CategoriaTitulo>
+              <div className="textoCategoria">
+              {categoria.categoriaTexto}
+              </div> 
+                
+                
+              </CategoryContainer>
+              <StyledSwiper
+              spaceBetween={10}
+              slidesPerView={4}
+              slidesPerGroup={2}
+              navigation={true} modules={[Navigation]}
+              onSlideChange={() => console.log('slide change')}
+              onSwiper={(swiper) => console.log(swiper)}
+    
+              breakpoints={{
+                320:{
+                  slidesPerView: 1,
+    
+                },
+                
+                640: {
+                  slidesPerView: 2,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                992:{
+                  slidesPerView: 3,
+    
+                },
+                1024: {
+                  slidesPerView: 4,
+                },
+              }}
+         
+            >
+                   
+
+
+
+        
+
+               {  
+                  videos.map((video)=> video.Categoria === categoria.categoriaNombre && <StyledSwiperSlide key={video.id} borderColor = {categoria.categoriaColor}>
+                  
+                  <img className="videoImage"    src={video.linkImagenVideo}/>
+               
+
+            </StyledSwiperSlide > )
+
+
+
+
+
+
+               }
+        
             
-            640: {
-              slidesPerView: 2,
-            },
-            768: {
-              slidesPerView: 2,
-            },
-            992:{
-              slidesPerView: 3,
-
-            },
-            1024: {
-              slidesPerView: 4,
-            },
-          }}
-        >
-          {slides.map((slide) => (
-            <StyledSwiperSlide key={slide.image}>
-              <img src={slide.image} alt={slide.title} />
 
 
-            </StyledSwiperSlide >
+                    
+             </StyledSwiper>
+             </div>
 
-          ))}
+            ))}
 
-          {/* <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        ... */}
-        </StyledSwiper>
+
+
+
       </SwiperContainer>
+
+
+
       
 
     </div>

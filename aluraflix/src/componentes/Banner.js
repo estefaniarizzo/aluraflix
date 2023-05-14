@@ -5,7 +5,7 @@ import BannerText from './BannerText';
 import bannerCard from '../assets/thumbnails/bannerCard.png';
 import Button from '../componentes/Button'
 
-import { colorGreyLight , colorBlackDark } from '../ui/colores';
+import { colorGreyLight, colorBlackDark } from '../ui/colores';
 
 
 const Container = styled.div`
@@ -220,8 +220,8 @@ const Banner = () => {
             <SubTitulo>
               Challenge React
             </SubTitulo>
-            <BotonVer  inputColor={colorBlackDark} bordercolor={colorGreyLight} backgroundColor={colorGreyLight} fontSize="1.5em"   btnwidth="9rem" height="3rem"  >Ver</BotonVer>
-           
+            <BotonVer inputColor={colorBlackDark} bordercolor={colorGreyLight} backgroundColor={colorGreyLight} fontSize="1.5em" btnwidth="9rem" height="3rem"  >Ver</BotonVer>
+
 
             <TextoBanner>
               Este challenge es una forma de aprendizaje. Es un mecanismo donde podrás comprometerte en la resolución de un problema para poder aplicar todos los conocimientos adquiridos en la formación React.

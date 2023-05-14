@@ -11,9 +11,14 @@ import styled , {css} from "styled-components"
 
 const MainSectionContainer = styled.div`
     background-color: #191919;
-    padding-top:3rem;
-    padding-bottom:3rem;
-  
+
+    padding:2rem;
+    ${props => css`
+    @media (max-width: ${props.theme.breakpoints.laptop}) {
+      padding-top:1.5rem;
+      
+   ` }
+
     
 `
 

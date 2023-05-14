@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate  } from 'react-router-dom';
 import styled, { css } from "styled-components"
 import logo from '../assets/LogoMain.png'
 import Button from '../componentes/Button'
@@ -30,12 +31,21 @@ const Logo = styled.img`
 `
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  function handleClick() {
+    console.log("nada")
+    navigate('/formulariovideos');
+  }
+
   return (
     <HeaderContainer>
       <Logo src={logo} alt="Aluraflix Logo" />
-      <Button inputColor="white" bordercolor='white' marginR="2%" display='none' fontSize="1rem" btnwidth="8rem" height="3rem"  >
+ 
+      <Button onClick={handleClick}   inputColor="white" bordercolor='white' marginR="2%" display='none' fontSize="1rem" btnwidth="8rem" height="3rem"  >
         Nuevo Video
       </Button>
+  
     </HeaderContainer>
   )
 }

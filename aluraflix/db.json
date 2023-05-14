@@ -1,7 +1,7 @@
 {
   "videos": [
-    { "id": 1, "titulo": "cuando usar let,var y const", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/front1.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
-    { "id": 2, "titulo": "que es javascript", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/front2.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
+    { "id": 1, "titulo": "cuando usar let,var y const", "linkVideo": "https://www.youtube.com/watch?v=PztCEdIJITY","linkImagenVideo":"/imagenes/front1.jpg","Categoria":"Front End","descripcion":"In the modern design world, Lorem Ipsum is the industry standard when placing dummy text onto an unfinished page, whether it's a newspaper, magazine, or advertisement. The Latin text was first used in the 16th century, when a printer scrambled a row of type (known as a ","codigoSeguridad":"" },
+    { "id": 2, "titulo": "que es javascript", "linkVideo": "https://www.youtube.com/watch?v=GJfOSoaXk4s&t=433s","linkImagenVideo":"/imagenes/front2.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
     { "id": 4, "titulo": "Equipo front end​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/inGest2.jpg","Categoria":"Innovacion y Gestion","decripcion":"","codigoSeguridad":"" },
     { "id": 5, "titulo": "Las 7 softskills más deseadas​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/inGest1.jpg","Categoria":"Innovacion y Gestion","decripcion":"","codigoSeguridad":"" },
     { "id": 6, "titulo": "Las 7 softskills más deseadas​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/front3.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },

@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from './Carousel/Slider/Slider'
 
-
+import Banner from '../componentes/Banner'
 import styled , {css} from "styled-components"
 
 
@@ -31,11 +31,15 @@ const MainSectionContainer = styled.div`
 function MainSection({categorias , videos}) {
 
   return (
-
+    <>
+    <Banner/>
     <MainSectionContainer>
+         
           <Slider categorias={categorias } videos={videos}/>
   
     </MainSectionContainer>
+
+    </>
 
   )
 }

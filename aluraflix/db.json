@@ -1,21 +1,89 @@
 {
   "videos": [
-    { "id": 1, "titulo": "cuando usar let,var y const", "linkVideo": "https://www.youtube.com/watch?v=PztCEdIJITY","linkImagenVideo":"/imagenes/front1.jpg","Categoria":"Front End","descripcion":"In the modern design world, Lorem Ipsum is the industry standard when placing dummy text onto an unfinished page, whether it's a newspaper, magazine, or advertisement. The Latin text was first used in the 16th century, when a printer scrambled a row of type (known as a ","codigoSeguridad":"" },
-    { "id": 2, "titulo": "que es javascript", "linkVideo": "https://www.youtube.com/watch?v=GJfOSoaXk4s&t=433s","linkImagenVideo":"/imagenes/front2.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
-    { "id": 4, "titulo": "Equipo front end​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/inGest2.jpg","Categoria":"Innovacion y Gestion","decripcion":"","codigoSeguridad":"" },
-    { "id": 5, "titulo": "Las 7 softskills más deseadas​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/inGest1.jpg","Categoria":"Innovacion y Gestion","decripcion":"","codigoSeguridad":"" },
-    { "id": 6, "titulo": "Las 7 softskills más deseadas​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/front3.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
-    { "id": 7, "titulo": "Las 7 softskills más deseadas​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/backend1.jpg","Categoria":"BackEnd","decripcion":"","codigoSeguridad":"" },
-    { "id": 8, "titulo": "Las 7 softskills más deseadas​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/front4.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" },
-    { "id": 9, "titulo": "Las 7 softskills más deseadas​", "linkVideo": "john.doe@example.com","linkImagenVideo":"/imagenes/front5.jpg","Categoria":"Front End","decripcion":"","codigoSeguridad":"" }
-
+    {
+      "id": 1,
+      "titulo": "cuando usar let,var y const",
+      "linkVideo": "https://www.youtube.com/watch?v=PztCEdIJITY",
+      "linkImagenVideo": "/imagenes/front1.jpg",
+      "Categoria": "Front End",
+      "descripcion": "In the modern design world, Lorem Ipsum is the industry standard when placing dummy text onto an unfinished page, whether it's a newspaper, magazine, or advertisement. The Latin text was first used in the 16th century, when a printer scrambled a row of type (known as a ",
+      "codigoSeguridad": ""
+    },
+    {
+      "id": 2,
+      "titulo": "que es javascript",
+      "linkVideo": "https://www.youtube.com/watch?v=GJfOSoaXk4s&t=433s",
+      "linkImagenVideo": "/imagenes/front2.jpg",
+      "Categoria": "Front End",
+      "decripcion": "",
+      "codigoSeguridad": ""
+    },
+    {
+      "titulo": "Que son las softs skills",
+      "linkVideo": "https://www.youtube.com/watch?v=vhwspfvI52k&t=189s",
+      "Categoria": "Innovacion y Gestion",
+      "descripcion": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral? En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas por las empresas en sus profesionales y cómo las Soft Skills te ayudan en el día a día.",
+      "codigoSeguridad": "1111111",
+      "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685480826/m4ja6ibudvhstw50uglm.jpg",
+      "id": 8
+    },
+    {
+      "titulo": "Spring Framework. ¿Qué es ? ",
+      "linkVideo": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
+      "Categoria": "BackEnd",
+      "descripcion": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados, con mejores prácticas y en menor tiempo. También posee una gran comunidad, lo que nos brinda muchísima documentación y ayuda.\n¿Quieres saber más?\n",
+      "codigoSeguridad": "22222",
+      "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685481249/jqbckgtqqpcyqwjwg6au.jpg",
+      "id": 9
+    },
+    {
+      "titulo": "Box Model y Box sizing",
+      "linkVideo": "https://www.youtube.com/watch?v=ts9qfCKamKg&t=5s",
+      "Categoria": "Front End",
+      "descripcion": "Box Model y Box sizing",
+      "codigoSeguridad": "33333",
+      "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685567216/yc9xhaj1airravb07kdh.jpg",
+      "id": 10
+    },
+    {
+      "titulo": "Empresas que aprenden ",
+      "linkVideo": "https://www.youtube.com/watch?v=mwNfWRsDDWE",
+      "Categoria": "Innovacion y Gestion",
+      "descripcion": "**El aprendizaje organizacional promueve tanto la adaptación al cambio como el crecimiento de la empresa**. Pero, ¿tienes alguna idea de cómo hacerse esto? En este Alura+, Priscila Stuani habla sobre el papel de la organización en el proceso de aprendizaje de sus profesionales.\n\nLas organizaciones tienen responsabilidades en el proceso de aprendizaje de sus colaboradores. Una de las formas de actuar en este sentido es potenciar algunas habilidades, como el pensamiento sistémico, el dominio personal, trabajar modelos mentales, construir una visión compartida, aprender en equipo y reconocer los patrones de interacción que dificultan este aprendizaje, además de componentes de tecnologías estimulantes.",
+      "codigoSeguridad": "11111a",
+      "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685579843/mxcvksyyqrdo5jdwrmxt.png",
+      "id": 11
+    },
+    {
+      "titulo": "7 Soft Skills más deseadas por las empresas",
+      "linkVideo": "https://www.youtube.com/watch?v=YhR7Zp8NUzE",
+      "Categoria": "Innovacion y Gestion",
+      "descripcion": "Seguro que ya escuchaste hablar sobre las Soft Skills, pero ¿sabes cuáles son las 7 más buscadas por las empresas? Quédate en este video con nosotros que vamos a explicarte la importancia de estas habilidades y porque son tan requeridas en el mercado laboral.\n\n¿Quieres saber más?\n\nVe nuestros cursos de Innovación y Gestión:\nhttps://www.aluracursos.com/cursos-on...\n\nEncuentra variados artículos sobre tecnologia en nuestro blog: https://www.aluracursos.com/blog/\n\n¡Videos nuevos todos los miércoles! A las 6pm México * 7pm Colombia * 8pm Bolivia * 9pm Argentina/Chile",
+      "codigoSeguridad": "666666666",
+      "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685580828/hze70ejhyfzdw74k8tk8.jpg",
+      "id": 12
+    }
   ],
   "categorias": [
-    { "id": 1, "categoriaNombre": "Front End", "categoriaTexto": "Formacion Front End Alura Latam" , "categoriaColor":"#6BD1FF"},
-    { "id": 2, "categoriaNombre": "BackEnd", "categoriaTexto": "Formacion Backend Alura Latam", "categoriaColor":"#00C86F" },
-    { "id": 3, "categoriaNombre": "Innovacion y Gestion", "categoriaTexto": "Formacion Innovacion y Gestion Alura Latam", "categoriaColor":"#FE8C2A" }
-    
-
+    {
+      "id": 1,
+      "categoriaNombre": "Front End",
+      "categoriaTexto": "Formacion Front End Alura Latam",
+      "categoriaColor": "#6BD1FF"
+    },
+    {
+      "categoriaNombre": "BackEnd",
+      "categoriaTexto": "Formacion Back End de Alura Latam",
+      "categoriaColor": "#00ff0e",
+      "codigoSeguridad": "333333333",
+      "id": 2
+    },
+    {
+      "categoriaNombre": "Innovacion y Gestion",
+      "categoriaTexto": "Innovacion y Gestion",
+      "categoriaColor": "#ff00c1",
+      "codigoSeguridad": "1111111",
+      "id": 3
+    }
   ]
- 
 }

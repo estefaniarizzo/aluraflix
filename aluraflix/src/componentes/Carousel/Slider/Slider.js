@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState ,lazy ,Suspense , useContext } from "react";
 import MyContext from '../../../Context'
-
+import { Link } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper";
@@ -221,11 +221,10 @@ function Slider({ categorias, videos }) {
 
 
   const {handleVideoLoading ,setVideoToPlay} = useContext(MyContext) ;
- 
+  
   const filteredCategories = categorias.filter(categoria => {
     return videos.some(video => video.Categoria === categoria.categoriaNombre);
   });
-
 
 
   return (
@@ -292,15 +291,15 @@ function Slider({ categorias, videos }) {
                   videos.map((video, index) => video.Categoria === categoria.categoriaNombre && <StyledSwiperSlide key={video.id} borderColor={categoria.categoriaColor}
                   onClick={() => handleVideoLoading(video.linkVideo)}
                   >
-
+                    <Link to={"/videoPlayer"}>
                     <div className="slide-container"    >
-                  
-
+          
                         <img className="videoImage" src={video.linkImagenVideo} />
                     
                       
 
                     </div>
+                    </Link>
                   </StyledSwiperSlide >)
 
 

@@ -32,6 +32,12 @@ const Logo = styled.img`
 
 const Header = () => {
   const navigate = useNavigate();
+  const volverMain = () =>{
+
+   
+navigate('/');
+
+}
 
   function handleClick() {
     console.log("nada")
@@ -40,7 +46,7 @@ const Header = () => {
 
   return (
     <HeaderContainer>
-      <Logo src={logo} alt="Aluraflix Logo" />
+      <Logo src={logo} onClick={volverMain} alt="Aluraflix Logo" />
  
       <Button onClick={handleClick}   inputColor="white" bordercolor='white' marginR="2%" display='none' fontSize="1rem" btnwidth="8rem" height="3rem"  >
         Nuevo Video

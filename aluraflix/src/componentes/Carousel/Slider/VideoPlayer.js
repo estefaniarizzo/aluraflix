@@ -1,11 +1,11 @@
-import React, { useState, useContext , useEffect } from 'react';
+import React, { useState, useContext  } from 'react';
 import ReactPlayer from "react-player";
 import styled from "styled-components";
-import { useParams } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 import MyContext from '../../../Context';
-import Box from '@mui/material/Box';
+
 import Fab from '@mui/material/Fab';
-import { PuffLoader } from 'react-spinners';
+
 
 
 
@@ -64,11 +64,17 @@ const PlayerWrapper = styled.div`
 
 
 const VideoPlayer = ({ videoUrl }) => {
-  const { handleFullPageClose, videoToPlay } = useContext(MyContext);
+  const navigate = useNavigate();
+  const { videoToPlay } = useContext(MyContext);
   const [loading, setLoading] = useState(true);
+  const volverMain = () =>{
 
+   
+    navigate('/');
+
+  }
   function handleReady() {
-    console.log("ey")
+  
     setLoading(false);
   }
 
@@ -76,7 +82,7 @@ const VideoPlayer = ({ videoUrl }) => {
 
   return (
     <VideoContainer>
-
+   
       <PlayerWrapper loading={loading}>
 
    
@@ -89,7 +95,7 @@ const VideoPlayer = ({ videoUrl }) => {
 
           
 
-            <Fab color="primary" aria-label="add" className="boton" onClick={handleFullPageClose}>
+            <Fab color="primary" aria-label="add" className="boton" onClick={ () => volverMain()}>
               X
             </Fab>
             <StyledPlayer url={videoToPlay}

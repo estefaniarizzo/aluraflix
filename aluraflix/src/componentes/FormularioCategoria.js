@@ -120,7 +120,7 @@ function FormularioCategoria() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:3001/categorias');
+      const response = await fetch('https://mock-proyecyo-alura-flix.vercel.app/categorias');
       const data = await response.json();
       setCategorias(data);
 
@@ -171,7 +171,7 @@ function FormularioCategoria() {
     try {
       if (editingCategoria) {
         data.categoriaColor = color;
-        const response = await axios.put(`http://localhost:3001/categorias/${editingCategoria.id}`, data);
+        const response = await axios.put(`https://mock-proyecyo-alura-flix.vercel.app/categorias/${editingCategoria.id}`, data);
         console.log(response.data);
         console.log(response.status);
    
@@ -181,7 +181,7 @@ function FormularioCategoria() {
       } else {
 
         data.categoriaColor = data.categoriaColor || color;
-        await axios.post('http://localhost:3001/categorias', data);
+        await axios.post('https://mock-proyecyo-alura-flix.vercel.app/categorias/', data);
       }
       enqueueSnackbar(
         editingCategoria
@@ -213,7 +213,7 @@ function FormularioCategoria() {
 
   const deleteCategoria = async (id) => {
     try {
-      await axios.delete(`http://localhost:3001/categorias/${id}`);
+      await axios.delete(`https://mock-proyecyo-alura-flix.vercel.app/categorias/categorias/${id}`);
       fetchData();
       volverMain();
       forceUpdate();

@@ -156,7 +156,7 @@ function FormularioVideos() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3001/categorias');
+        const response = await fetch('https://mock-proyecyo-alura-flix.vercel.app/categorias/categorias');
         const data = await response.json();
         setOptions(data);
      
@@ -195,7 +195,7 @@ function FormularioVideos() {
       }
 
       // Send the form data to the server
-      const response = await axios.post('http://localhost:3001/videos', data);
+      const response = await axios.post('https://mock-proyecyo-alura-flix.vercel.app/categorias/videos', data);
       console.log(response.data);
       console.log(response.status);
       enqueueSnackbar('Video agregado correctamente', {

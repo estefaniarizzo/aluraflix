@@ -29,13 +29,13 @@ function App() {
   const [reducerValue, forceUpdate] = useReducer(x => x + 1, 0);
 
   useEffect(() => {
-    axios.get('http://localhost:3001/categorias')
+    axios.get('https://mock-proyecyo-alura-flix.vercel.app/categorias')
       .then(response => setCategorias(response.data))
       .catch(error => console.error(error));
   }, [reducerValue]);
 
   useEffect(() => {
-    axios.get('http://localhost:3001/videos')
+    axios.get('https://mock-proyecyo-alura-flix.vercel.app/videos')
       .then(response => setVideos(response.data))
       .catch(error => console.error(error));
   }, [reducerValue]);

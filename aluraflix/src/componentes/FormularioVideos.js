@@ -195,7 +195,7 @@ function FormularioVideos() {
       }
 
       // Send the form data to the server
-      const response = await axios.post('https://mock-proyecyo-alura-flix.vercel.app/categorias/videos', data);
+      const response = await axios.post('https://mock-proyecyo-alura-flix.vercel.app/videos', data);
       console.log(response.data);
       console.log(response.status);
       enqueueSnackbar('Video agregado correctamente', {

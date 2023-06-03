@@ -91,13 +91,22 @@
       "id": 15
     },
     {
-      "titulo": "Aprendiendo a utilizar Figma",
-      "linkVideo": "https://www.youtube.com/watch?v=UuAX5azcvDQ",
+      "titulo": "Equipo front end",
+      "linkVideo": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
       "Categoria": "Front End",
-      "descripcion": "\nEn este Alura+, Genesys, instructora de Alura Latam, nos responde esa pregunta y nos muestra esta conocida herramienta.\n\n¿Quieres saber más?\n\nEntra a nuestra plataforma, dónde encontrarás variados cursos de tecnología:\nhttps://www.aluracursos.com/\n\nEncuentra variados artículos sobre tecnologia en nuestro blog: https://www.aluracursos.com/blog/\n\n¡Videos nuevos todos los miércoles! A las 6pm México * 7pm Colombia * 8pm Bolivia * 9pm Argentina/Chile",
-      "codigoSeguridad": "1111111",
-      "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685820371/ymijfjlzkkydsbi0kqwp.jpg",
+      "descripcion": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología?",
+      "codigoSeguridad": "555555555",
+      "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685821856/q58g3swdjnxv30u3jkux.png",
       "id": 16
+    },
+    {
+      "titulo": "video categoria de prueba",
+      "linkVideo": " https://www.youtube.com/watch?v=rpvrLaBQwgg",
+      "Categoria": "Categoria de  prueba",
+      "descripcion": "prueba categoria",
+      "codigoSeguridad": "xxxxxxx",
+      "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685822079/hggapt3l9hsd9x7n4qqi.png",
+      "id": 17
     }
   ],
   "categorias": [
@@ -120,13 +129,6 @@
       "categoriaColor": "#ff00c0",
       "codigoSeguridad": "1111111",
       "id": 3
-    },
-    {
-      "categoriaNombre": "Data Science",
-      "categoriaTexto": "Ciencia de datos",
-      "categoriaColor": "#00aaff",
-      "codigoSeguridad": "434343",
-      "id": 4
     }
   ]
 }

@@ -1,1 +1,1 @@
-![](aluraflix/fotos/2.jpg)
+![](fotos/2.jpg)

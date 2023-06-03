@@ -62,6 +62,42 @@
       "codigoSeguridad": "666666666",
       "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685580828/hze70ejhyfzdw74k8tk8.jpg",
       "id": 12
+    },
+    {
+      "titulo": "Simplificando tu código en Java: Conoce los enum ",
+      "linkVideo": "https://www.youtube.com/watch?v=EoPvlE85XAQ&t=68s",
+      "Categoria": "BackEnd",
+      "descripcion": "¿Escribir muchas variables del tipo constantes en Java te parece un proceso tedioso y que genera muchas líneas de código? \nEn este Alura+ la instructora Génesys Rondón nos enseña a simplificar esta tarea usando un tipo de dato especial llamado enum.\n\n¿Te gustaría aprender Java desde 0 en nuestra plataforma? Da click aqui - https://www.aluracursos.com/formacion...\nConoce más detalles sobre los tipos de datos enum visitando la documentación oficial - https://docs.oracle.com/javase/tutori...",
+      "codigoSeguridad": "333333",
+      "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685658721/cepyl3vngtaxjxvlnwdb.png",
+      "id": 13
+    },
+    {
+      "titulo": "Machine Learning",
+      "linkVideo": "https://www.youtube.com/watch?v=edS0Fhg0xyM",
+      "Categoria": "Data Science",
+      "descripcion": "Ve nuestros cursos de Machine Learning\nhttps://www.aluracursos.com/cursos-on...\nEncuentra variados artículos sobre tecnologia en nuestro blog: https://www.aluracursos.com/blog/\n\n¡Videos nuevos todos los miércoles! A las 6pm México * 7pm Colombia * 8pm Bolivia * 9pm Argentina/Chile\n\nProducción audiovisual: Henrique Balleiras\n",
+      "codigoSeguridad": "777777",
+      "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685666160/cjwwusmvygsviiunkg8i.png",
+      "id": 14
+    },
+    {
+      "titulo": "Aprendiendo a utilizar Figma",
+      "linkVideo": "https://www.youtube.com/watch?v=UuAX5azcvDQ",
+      "Categoria": "Front End",
+      "descripcion": "\nEn este Alura+, Genesys, instructora de Alura Latam, nos responde esa pregunta y nos muestra esta conocida herramienta.\n\n¿Quieres saber más?\n\nEntra a nuestra plataforma, dónde encontrarás variados cursos de tecnología:\nhttps://www.aluracursos.com/\n\nEncuentra variados artículos sobre tecnologia en nuestro blog: https://www.aluracursos.com/blog/\n\n¡Videos nuevos todos los miércoles! A las 6pm México * 7pm Colombia * 8pm Bolivia * 9pm Argentina/Chile",
+      "codigoSeguridad": "1111111",
+      "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685820371/g05mariipqt8dttkzxkb.jpg",
+      "id": 15
+    },
+    {
+      "titulo": "Aprendiendo a utilizar Figma",
+      "linkVideo": "https://www.youtube.com/watch?v=UuAX5azcvDQ",
+      "Categoria": "Front End",
+      "descripcion": "\nEn este Alura+, Genesys, instructora de Alura Latam, nos responde esa pregunta y nos muestra esta conocida herramienta.\n\n¿Quieres saber más?\n\nEntra a nuestra plataforma, dónde encontrarás variados cursos de tecnología:\nhttps://www.aluracursos.com/\n\nEncuentra variados artículos sobre tecnologia en nuestro blog: https://www.aluracursos.com/blog/\n\n¡Videos nuevos todos los miércoles! A las 6pm México * 7pm Colombia * 8pm Bolivia * 9pm Argentina/Chile",
+      "codigoSeguridad": "1111111",
+      "linkImagenVideo": "https://res.cloudinary.com/dkj7iqhfy/image/upload/v1685820371/ymijfjlzkkydsbi0kqwp.jpg",
+      "id": 16
     }
   ],
   "categorias": [
@@ -74,16 +110,23 @@
     {
       "categoriaNombre": "BackEnd",
       "categoriaTexto": "Formacion Back End de Alura Latam",
-      "categoriaColor": "#00ff0e",
+      "categoriaColor": "#ff2700",
       "codigoSeguridad": "333333333",
       "id": 2
     },
     {
       "categoriaNombre": "Innovacion y Gestion",
       "categoriaTexto": "Innovacion y Gestion",
-      "categoriaColor": "#ff00c1",
+      "categoriaColor": "#ff00c0",
       "codigoSeguridad": "1111111",
       "id": 3
+    },
+    {
+      "categoriaNombre": "Data Science",
+      "categoriaTexto": "Ciencia de datos",
+      "categoriaColor": "#00aaff",
+      "codigoSeguridad": "434343",
+      "id": 4
     }
   ]
 }

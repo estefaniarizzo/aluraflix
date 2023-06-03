@@ -15,6 +15,7 @@ const HeaderContainer = styled.div`
     align-items: center;
     justify-content:space-between;
     min-width:320px;
+    border-bottom: 2px solid #2A7AE4;
     
 `
 const Logo = styled.img`

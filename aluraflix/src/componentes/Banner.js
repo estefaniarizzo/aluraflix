@@ -13,7 +13,7 @@ const Container = styled.div`
   width: 100%;
   height: 90vh;
   
-  border-top: 2px solid #2A7AE4;
+  /* border-top: 2px solid #2A7AE4; */
   min-width:320px;
 
   ${props => css`

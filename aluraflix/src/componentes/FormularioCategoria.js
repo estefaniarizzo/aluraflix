@@ -213,7 +213,7 @@ function FormularioCategoria() {
 
   const deleteCategoria = async (id) => {
     try {
-      await axios.delete(`https://mock-proyecyo-alura-flix.vercel.app/categorias/categorias/${id}`);
+      await axios.delete(`https://mock-proyecyo-alura-flix.vercel.app/categorias/${id}`);
       fetchData();
       volverMain();
       forceUpdate();

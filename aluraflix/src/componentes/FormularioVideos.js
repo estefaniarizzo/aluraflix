@@ -156,7 +156,7 @@ function FormularioVideos() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://mock-proyecyo-alura-flix.vercel.app/categorias/categorias');
+        const response = await fetch('https://mock-proyecyo-alura-flix.vercel.app/categorias');
         const data = await response.json();
         setOptions(data);
      

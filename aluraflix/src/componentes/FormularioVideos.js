@@ -217,6 +217,11 @@ function FormularioVideos() {
           horizontal: 'right',
         },
       });
+
+      
+      volverMain();
+      forceUpdate();
+      
     }
   };
  

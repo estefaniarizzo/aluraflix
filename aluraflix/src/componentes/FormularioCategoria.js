@@ -206,6 +206,8 @@ function FormularioCategoria() {
           horizontal: 'right',
         },
       });
+      volverMain();
+      forceUpdate();
     }
   };
 
